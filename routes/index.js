@@ -398,7 +398,7 @@ router.post("/login", Login);
 router.delete("/logout", Logout);
 
 // Serve login and register HTML pages
-router.get("/login", (req, res) => {
+router.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../../frontend/login.html"));
 });
 
