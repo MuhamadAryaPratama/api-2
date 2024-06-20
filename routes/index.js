@@ -387,9 +387,9 @@ router.delete("/papua/:id", deletePapuaMenu);
 router.put("/papua/:id", editPapuaMenu);
 
 // Define route to show "Hallo"
-router.get("/", (req, res) => {
-  res.send("Hallo");
-});
+// router.get("/", (req, res) => {
+//   res.send("Hallo");
+// });
 
 // Other routes for user actions
 router.get("/users", getUsers);
