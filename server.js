@@ -30,5 +30,5 @@ app.use(express.static(path.join(__dirname, "../frontend")));
 app.use(router);
 
 app.listen(3000, "0.0.0.0", () => {
-  console.log("Server berhasil di running di port 4000");
+  console.log("Server berhasil di running di port 3000");
 });
